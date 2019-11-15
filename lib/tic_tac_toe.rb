@@ -99,7 +99,7 @@ class TicTacToe
       turn
     end
     
-    if won
+    if won?
       winner
     else
       puts "Cat's Game!"
