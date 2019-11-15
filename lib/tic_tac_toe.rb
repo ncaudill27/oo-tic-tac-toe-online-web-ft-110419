@@ -97,13 +97,14 @@ class TicTacToe
   def play
     until over? do
       turn
+      if won?
+        return winner
+      else
+        puts "Cat's Game!"
+      end
     end
     
-    if won?
-      winner
-    else
-      puts "Cat's Game!"
-    end
+    
   end
   
 end
