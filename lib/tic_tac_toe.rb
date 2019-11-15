@@ -95,12 +95,12 @@ class TicTacToe
   end
   
   def play
-    turn
-    while !over? do
+    until over? do
       turn
     end
-    if draw?
-      puts "Cat's Game!"
+    
+    if won
+      
     else
       winner
     end
