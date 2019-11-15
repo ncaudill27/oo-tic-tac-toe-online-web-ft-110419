@@ -49,7 +49,7 @@ class TicTacToe
   
   def turn
     move = gets
-    move_location = self.input_to_index(move)
+    move_location = input_to_index(move)
     move_valid = valid_move?(move_location)
     
     if move_valid
