@@ -100,9 +100,9 @@ class TicTacToe
     end
     
     if won
-      
-    else
       winner
+    else
+      puts "Cat's Game!"
     end
   end
   
