@@ -73,7 +73,7 @@ class TicTacToe
     end
 
     def over?
-        turn_count == 9
+        turn_count == 9 || !!won? || draw?
     end
 
     def winner
